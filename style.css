@@ -1,8 +1,37 @@
 
+body {
+    background-color: rgb(184, 179, 184);
+}
 
 .title {
     display: flex;
     justify-content: center;
+    background-color: rgb(231, 42, 231);
+    margin: 0;
+}
+.tel__blok {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 150px;
+    animation-name: move ;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.tel__logo {
+    margin-right: 5px;
+}
+@keyframes move {
+0%{
+background-color: rgb(216, 9, 9);
+}
+
+100% {
+    margin-left: 0px;
+    background-color: rgb(43, 13, 240);
+    color: white;
+}
 }
 
 .carousel-inner {
