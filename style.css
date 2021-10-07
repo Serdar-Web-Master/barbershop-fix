@@ -50,17 +50,17 @@ background-color: rgb(5, 253, 38);
 .info__blok {
     color: #a15ed3;
     font-style: italic;
-    font-size: 40px;
+    font-size: 20px;
     background: red url("main.jpg") center no-repeat;
     background-size: cover;
 }
 .info__blok p {
-    padding: 25px;
+    padding: 40px;
     opacity: 1;
 }
 @media (max-width: 420px) {
     .info__blok {
-        margin-top: -135px;
+        margin-top: -145px;
     }
 }
 /* Price */
@@ -87,4 +87,16 @@ background-color: rgb(5, 253, 38);
     .price__img {
         width: 60%;
     }
+}
+.map {
+    width: 100%;
+    margin-top: 25px;
+}
+.map h2 {
+    display: flex;
+    justify-content: center;
+    color: #3607f0;
+}
+.map img {
+    width: 100%;
 }
