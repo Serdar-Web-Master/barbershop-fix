@@ -48,14 +48,15 @@ background-color: rgb(5, 253, 38);
 }
 /* Info */
 .info__blok {
-    color: #4feded;
+    color: #a15ed3;
     font-style: italic;
-    font-size: 20px;
-    background:  url("main.jpg") center no-repeat;
+    font-size: 40px;
+    background: red url("main.jpg") center no-repeat;
     background-size: cover;
 }
 .info__blok p {
     padding: 25px;
+    opacity: 1;
 }
 @media (max-width: 420px) {
     .info__blok {
