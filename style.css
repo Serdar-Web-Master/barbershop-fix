@@ -46,7 +46,22 @@ background-color: rgb(5, 253, 38);
 .carousel-inner {
     height: 400px;
 }
-
+/* Info */
+.info__blok {
+    color: #4feded;
+    font-style: italic;
+    font-size: 20px;
+    background:  url("main.jpg") center no-repeat;
+    background-size: cover;
+}
+.info__blok p {
+    padding: 25px;
+}
+@media (max-width: 420px) {
+    .info__blok {
+        margin-top: -135px;
+    }
+}
 /* Price */
 .price__main {
 
@@ -66,7 +81,7 @@ background-color: rgb(5, 253, 38);
 }
 @media (max-width: 420px) {
     .price__main {
-        margin-top: -150px;
+        /* margin-top: -150px; */
     }
     .price__img {
         width: 60%;
